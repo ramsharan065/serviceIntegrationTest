@@ -1,7 +1,7 @@
 package org.test
 
 import grails.transaction.Transactional
-import org.test.Person
+import org.test.domain.Person
 
 @Transactional
 class PersonService {
