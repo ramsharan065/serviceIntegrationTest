@@ -1,12 +1,5 @@
 package org.test
 
-
-
-//import grails.test.mixin.TestFor;
-//import grails.test.mixin.TestMixin;
-//import grails.test.mixin.integration.IntegrationTestMixin;
-//import grails.test.spock.IntegrationSpec;
-
 import spock.lang.*
 
 /**
@@ -16,13 +9,12 @@ class PersonServiceITSpec extends Specification {
 
 	PersonService personService
     def setup() {
-    	//PersonService personService = new PersonService()
     }
 
     def cleanup() {
     }
 
-    void "test something"() {
+    void "test createPerson happy path"() {
     	given:
     	final String name = 'name'
 
